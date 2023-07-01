@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1B1924;
+    color: #FFF;
+    max-width: 390px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 45px 35px 30px;
+}
+
+img {
+    max-width: 90px;
+}
+
+h1,
+h3,
+button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.blue-text {
+    color: #28A9F1; 
+}
+
+#add-comment {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    color: inherit;
+    resize: none;
+    width: 100%;
+    max-width: 315px;
+    height: 145px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+#publish-button {
+    margin-top: 15px;
+    color: #04131C;
+    width: 100%;
+    max-width: 315px;
+    border-radius: 8px;
+    background: #28A9F1;   
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* ---------- Above everything perfect, it just need JS to be added. -------------*/
+
+.comment-box {
+    background: #FFF;
+    color: #1B1924;
+    padding: 15px;
+    text-align: left;
+}
